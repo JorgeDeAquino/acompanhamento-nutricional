@@ -6,13 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/sytle.css">
+
     <script src="./assets/js/calcula-imc.js" defer></script>
     <script src="./assets/js/form.js" defer></script>
     <script src="./assets/js/validacao-imc.js" defer></script>
+
     <title>Acompanhamento Nutricional</title>
 </head>
 <body>
     <main>
+        <header>
+            <div class="resposta__visual">
+                <h2 class="resposta__visual-titulo">
+                    Resposta visual Relacionado as cores do IMC
+                </h2>
+                <ul class="resposta__visual-legenda">
+                    <li>
+                        <p>Menor que 18,5: 
+                            <span class="alerta">
+                                Magreza
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Entre 18,5 e 24,9: 
+                            <span class="bom">
+                                Normal
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Entre 25,0 e 29,9: 
+                            <span class="alerta">
+                                Sobrepeso
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Entre 30,0 e 39,9: 
+                            <span class="obesidade">
+                                Obesidade
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Maior que 40,0: 
+                            <span class="obesidade__grave">
+                                Obesidade grave
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+                <h3 class="resposta__visual-obs">
+                    * Para excluir cliente basta dar 2 cliques no nome desejado!
+                </h3>
+            </div>
+
+        </header>
         <section class="container">
             <h2>Meus clientes</h2>
             <table>
