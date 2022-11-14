@@ -7,7 +7,6 @@ function respostaVisual() {
     let imcVisual = [...imcInfo];
 
     imcVisual.forEach((item) => {
-        console.log(item.textContent);
         if (item.textContent >= 0 && item.textContent <= 18.4) {
             item.classList.add("alerta");
         } else if (item.textContent >= 18.5 && item.textContent <= 24.9) {

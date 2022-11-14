@@ -21,6 +21,7 @@ botaoAdicionar.addEventListener("click", function(event) {
     let mensagensErro = document.querySelector("#mensagens-erro");
     mensagensErro.innerHTML = "";
 
+    respostaVisual()
 });
 
 function obtemclienteDoFormulario(form) {
