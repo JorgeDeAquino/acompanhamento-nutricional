@@ -11,15 +11,8 @@ body{
 }
 
 main {
-    background-color: rgba(34, 31, 33, 0.6);
+    background-color: rgba(34, 31, 33, 0.8);
     min-height: 100vh;
-}
-
-h2{
-	font-size: 2em;
-    color: #fdfdfd;
-	display:inline-block;
-	vertical-align:	middle;
 }
 
 header .container:before{
@@ -40,9 +33,11 @@ section{
 	overflow: hidden;
 }
 
-section h2{
+h2 {
+    color: #fdfdfd;
 	font-size: 3em;
 	display: block;
+    margin-top: 2rem;
 	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: .5em;
@@ -69,43 +64,56 @@ th{
 	background-color: #EEE;
 }
 
-label{
-	color: #555;
-	display: block;
-	margin-bottom: .2em;
+input {
+    padding: .9rem;
+    width: 100%;
+    padding-bottom: 0.2rem;
+    background-color: transparent;
+    border:none;
+    border-bottom: 3px solid #fd951f;
+    color: #fdfdfd;
+    font-size: 1.2rem;
+    outline: none;
 }
 
-.campo{
-	margin: 0;
-	padding-bottom: 1em;
-	width: 100%;
-	border: 1px solid #ccc;
-	padding: .7em;
-	width: 100%;
-}
-
-.campo-medio{
+.input {
+    margin-bottom: 24px;
+    position: relative;
+    width: 45%;
 	display: inline-block;
-	padding-right: .5em;
+	padding: 10px 0px;
+}
+
+input ~ label {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    font-weight: bold;
+    color: #fff;
+
+    transition: .4s;
+}
+
+input:focus ~ label {
+    transform: translateY(-24px);
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
 }
 
 .grupo{
-	width: 32%;
-	display: inline-block;
-	padding: 10px 0px;
+    margin-right: 2rem;
 }
 
 button{
 	padding: .5em 2em;
 	border: 0;
-	border-bottom: 3px solid;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	cursor: pointer;
 	margin: 0;
-	margin-top: -3px;
+	margin-top: 1rem;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	background-color:#fd951f;
+	border-color: #fd951f;
 	width: 20%;
     display: block;
     clear: both;
