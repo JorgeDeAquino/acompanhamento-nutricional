@@ -162,3 +162,19 @@ button[disabled=disabled], button:disabled {
 .invisivel {
 	display: none;
 }
+
+.alerta {
+    color: #dbce12;
+}
+.alerta-2 {
+    color: #dbce12;
+}
+.bom {
+    color: #12db34;
+}
+.obesidade {
+    color: #ff6961 ;
+}
+.obesidade__grave {
+    color: #9400d3;
+}
