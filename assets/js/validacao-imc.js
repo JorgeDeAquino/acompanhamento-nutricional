@@ -6,8 +6,6 @@ function respostaVisual() {
     //transformando html colection em array
     let imcVisual = [...imcInfo];
 
-    let info;
-
     imcVisual.forEach((item) => {
         console.log(item.textContent);
         if (item.textContent >= 0 && item.textContent <= 18.4) {
