@@ -9,7 +9,8 @@ inputFilter.addEventListener("input", function () {
             let cliente = clientes[i];
             let tdNome = cliente.querySelector(".info-nome");
             let nome = tdNome.textContent;
-            if (nome != this.value) {
+            let re = new RegExp(this.value,"i")
+            if (!re.test(nome)) {
                 cliente.classList.add("invisivel")
             } else {
                 cliente.classList.remove("invisivel")
