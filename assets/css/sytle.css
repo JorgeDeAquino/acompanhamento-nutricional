@@ -26,14 +26,14 @@ header {
     margin-top: .5rem;
 }
 
-.container:before {
+.container-add:before {
     content: '';
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
 
-.container {
+.container-add, .container {
     height: 100%;
     margin: 0 auto;
     width: 80%;
@@ -45,11 +45,17 @@ section {
 }
 
 h2 {
+    color: #fdfdfd;
+    font-size: 3em;
+    flex: 1.5;
+}
+
+#titulo-form {
     border-bottom: 1px solid #ccc;
     color: #fdfdfd;
     display: block;
     font-size: 3em;
-    padding-bottom: .5em;
+    padding-bottom: .1em;
 }
 
 .resposta__visual {
@@ -191,10 +197,23 @@ button:active {
     transition: 0.5s;
 }
 
-#filtrar-tabela {
+.clientes-busca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#filtro-tabela {
     height: 35px;
     margin-bottom: 10px;
-    width: 200px;
+    width: 35%;
+    color: #fff;
+    margin-right: 0.2rem;
+}
+
+.filtro-label {
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 .invisivel {
