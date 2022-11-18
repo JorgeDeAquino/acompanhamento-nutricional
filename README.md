@@ -4,8 +4,8 @@ Deseja conferir como ficou o resultado do projeto? Teste a funcionalidade atrav�
 
 ## **Demonstração Desktop💻⌨🖱**
 <div>
-<img src="./img-Readme/inicial-desk.png" height="200px" width="290px">
-<img src="./img-Readme/inicial-desk-2.png" height="200px" width="290px"> 
+<img src="./img-Readme/inicial-desk.png" height="300px" width="500px">
+<img src="./img-Readme/inicial-desk-2.png" height="300px" width="500px"> 
 </div>
 
 <h2>Sobre o Projeto:</h2>
