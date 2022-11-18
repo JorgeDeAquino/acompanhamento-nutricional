@@ -13,6 +13,7 @@
     <script src="./assets/js/validacao-imc.js" defer></script>
     <script src="./assets/js/remove.js" defer></script>
     <script src="./assets/js/filtrar.js" defer></script>
+    <script src="./assets/js/busca-API.js" defer></script>
 
     <title>Acompanhamento Nutricional</title>
 </head>
@@ -100,7 +101,10 @@
         </section>
 
         <section class="container-add">
-            <h2 id="titulo-form">Adicionar novo cliente</h2>
+            <div class="add-cliente">
+                <h2 id="busca-pacientes">Adicionar Cliente</h2>
+                <button id="buscar-clientes" class="botao bto-principal">Buscar Clientes</button>
+            </div>
             <ul id="mensagens-erro"></ul>
             <form id="form-adiciona">
                 <div class="input grupo">

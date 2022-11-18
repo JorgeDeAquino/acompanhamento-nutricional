@@ -51,7 +51,6 @@ h2 {
 }
 
 #titulo-form {
-    border-bottom: 1px solid #ccc;
     color: #fdfdfd;
     display: block;
     font-size: 3em;
@@ -153,7 +152,6 @@ input:focus~label {
 
 .grupo {
     margin-right: 9%;
-
 }
 
 button {
@@ -215,6 +213,14 @@ button:active {
 .filtro-label {
     color: #fff;
     font-size: 1.5rem;
+}
+
+.add-cliente {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .3rem;
+    border-bottom: 1px solid #ccc;
 }
 
 .invisivel {
