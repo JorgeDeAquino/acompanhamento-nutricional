@@ -4,9 +4,8 @@ Deseja conferir como ficou o resultado do projeto? Teste a funcionalidade atrav�
 
 ## **Demonstração Desktop💻⌨🖱**
 <div>
-<img src="readme-img/.png" height="200px" width="290px">
-<img src="readme-img/.png" height="200px" width="290px"> 
-<img src="readme-img/.png" height="200px" width="290px"> 
+<img src="./img-Readme/inicial-desk.png" height="200px" width="290px">
+<img src="./img-Readme/inicial-desk-2.png" height="200px" width="290px"> 
 </div>
 
 <h2>Sobre o Projeto:</h2>
@@ -14,6 +13,8 @@ Deseja conferir como ficou o resultado do projeto? Teste a funcionalidade atrav�
   Este projeto tem como objetivo adicionar e listar cliente para controle e um acompanhamento nutrional.
   <br>
   Como funções ele apresenta um formulario com validações personalizadas e adição a tabela dinamicamente, resposta visual sobre o valor do IMC para facilitação de saber qual a classificação do cliente, filtro de clientes feito por expressão regular buscando cada caracter e case insensitive, alem é claro de remoção do cliente da tabela com duplo click.
+  <br>
+  É possivel tambem obter clientes de um servidor atraves de uma API com os dados de clientes já cadastrados. Pode ser testado atraves do botão Buscar Clientes.
   <br>
 
 <h2>Tecnologias utilizadas:</h2>
@@ -56,6 +57,6 @@ Deseja conferir como ficou o resultado do projeto? Teste a funcionalidade atrav�
 
 <h3> Considerações: <h3>
 
-<span> * Adicionar inclusão de clientes aleatorios para prenchimento da lista via Ajax, consumindo de uma API externa</span>
+<span> *É possivel fazer a inclusão de clientes para prenchimento da lista via Ajax, consumindo de uma API externa</span>
 
 
