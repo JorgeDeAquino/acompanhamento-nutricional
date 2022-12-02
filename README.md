@@ -57,6 +57,6 @@ Deseja conferir como ficou o resultado do projeto? Teste a funcionalidade atrav�
 
 <h3> Considerações: <h3>
 
-<span> *É possivel fazer a inclusão de clientes para prenchimento da lista via Ajax, consumindo de uma API externa</span>
+<span> *É possivel fazer a inclusão de clientes para prenchimento da lista via Ajax, consumindo de uma API externa.</span>
 
 
